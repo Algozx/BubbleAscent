@@ -1,5 +1,7 @@
 # Bubble Ascent
 
+**[Play in the browser](https://algozx.github.io/BubbleAscent/)**
+
 A one-button mobile game made in Unity. You are a soap bubble trying to rise from the sea floor to the sky.
 
 Holding inflates the bubble and makes it rise faster, but a bigger bubble is also easier to hit. Releasing makes it
