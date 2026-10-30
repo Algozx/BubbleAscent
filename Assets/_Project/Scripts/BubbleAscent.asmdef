@@ -1,0 +1,10 @@
+{
+    "name": "BubbleAscent",
+    "rootNamespace": "BubbleAscent",
+    "references": [
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "autoReferenced": true
+}

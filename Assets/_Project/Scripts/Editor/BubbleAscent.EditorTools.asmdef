@@ -1,0 +1,13 @@
+{
+    "name": "BubbleAscent.EditorTools",
+    "rootNamespace": "BubbleAscent.EditorTools",
+    "references": [
+        "BubbleAscent",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "autoReferenced": false
+}

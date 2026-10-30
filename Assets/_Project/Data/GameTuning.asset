@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e864350ac464f35a664a5c9312de352, type: 3}
+  m_Name: GameTuning
+  m_EditorClassIdentifier: 
+  bubble:
+    minRadius: 0.2
+    maxRadius: 0.8
+    startRadius: 0.35
+    inflateRate: 0.5
+    deflateRate: 2
+    riseSpeedAtMin: 1.5
+    riseSpeedAtMax: 5
+    fallSpeed: 3.5
+    verticalAcceleration: 8
+  ascent:
+    viewHalfHeight: 5
+    startBelowCenter: 2
+    followAbove: 1
+    startClimbSpeed: 1.2
+    climbSpeedPerMeter: 0.005
+    maxClimbSpeed: 3.2
+  obstacles:
+    hardestAtHeight: 200
+    firstObstacleHeight: 6
+    spacingEasy: 5
+    spacingHard: 3
+    minSpacing: 2.5
+    gateChanceEasy: 0.3
+    gateChanceHard: 0.5
+    gateThickness: 0.8
+    gateGapEasy: 1.4
+    gateGapHard: 0.75
+    gateMargin: 0.2
+    crosserWidth: 1.2
+    crosserThickness: 0.5
+    crosserPatrolHalfWidth: 2.6
+    crosserMargin: 0.2
+    crosserSpeedEasy: 1.5
+    crosserSpeedHard: 3.5
+    generateAbove: 2
+    keepBelow: 2
+  run:
+    restartDelay: 0.35
+    maxStepDt: 0.02
+  journey:
+    surfaceHeight: 150
+    thinAirInflate: 0.8
+    thinAirFullAbove: 250
